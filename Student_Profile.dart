@@ -142,7 +142,7 @@ void main()
   print("Name: ${student.getName}");
   print("Age: ${student.getAge}");
   print("Address: ${student.getAddress}");
-  print("Average Score: ${student.AverageScores().round()}");
+  print("Average Score: ${student.AverageScores().roundToDouble()}");
   print('');
 
   // Teacher Profile
