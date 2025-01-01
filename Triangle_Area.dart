@@ -16,6 +16,6 @@ void main()
 
  void triangle(double base, double height ) {
   double triangleArea = 0.5 * base * height;
-  print("Triangle Area: $triangleArea");
+  print("Triangle Area: ${triangleArea.roundToDouble()}");
 
 }
